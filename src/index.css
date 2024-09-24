@@ -6,8 +6,9 @@
 @tailwind utilities;
 
 :root {
-    font-family: "Poppins", sans-serif;
-    color-scheme: dark;
+  font-family: "Poppins", sans-serif;
+  color-scheme: dark;
+  background-color: rgb(14, 12, 21);
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -18,8 +19,8 @@
   } */
 
 @media (prefers-color-scheme: dark) {
-    .element {
-        color: #e6f4fc;
-        background-color: #010e17;
-    }
+  .element {
+    color: #e6f4fc;
+    background-color: #010e17;
+  }
 }
