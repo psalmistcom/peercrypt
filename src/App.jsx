@@ -12,12 +12,12 @@ function App() {
       <Navbar />
       <div className="w-full mx-auto pt-20">
         <HeroSection />
-        <FeatureSection />
-        <Workflow />
-        <Pricing />
-        <Testimonials />
-        <Footer />
       </div>
+      <Workflow />
+      <FeatureSection />
+      <Pricing />
+      <Testimonials />
+      <Footer />
     </>
   );
 }

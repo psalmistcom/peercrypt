@@ -106,24 +106,24 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Exchange made easy",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Feel confident by trading on-chain with non-custodial exchange",
   },
   {
-    title: "Review code without worry",
+    title: "Exchange popular cryptocurrencies",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Exchange Bitcoin, Ethereum, and other popular cryptocurrencies using secure smart contracts and Bitcoin scripts alongside wallets where you control the private keys.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Be in the Know",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Empower yourself by exploring how to buy and sell cryptocurrency without having to hand over control of your funds.",
   },
   {
-    title: "Share work in minutes",
+    title: "Get the support you need",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Our team are always ready to support and answer your questions. Please feel free to contact us!",
   },
 ];
 
