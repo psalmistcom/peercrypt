@@ -13,6 +13,8 @@ export default {
       colors: {
         primary: {
           100: "#e6f4fc",
+
+          800: "#130c15",
           900: "rgb(14 12 21)",
         },
       },

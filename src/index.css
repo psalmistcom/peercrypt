@@ -11,6 +11,10 @@
   background-color: rgb(14, 12, 21);
 }
 
+.some {
+  color: #130c15;
+}
+
 .herobg {
   background: rgb(34, 8, 36);
   background: radial-gradient(circle, rgba(34, 8, 36, 1) 0%, rgba(101, 5, 95, 1) 49%, rgba(7, 0, 9, 1) 100%);
