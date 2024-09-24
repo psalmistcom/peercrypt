@@ -120,11 +120,6 @@ export const checklistItems = [
     description:
       "Empower yourself by exploring how to buy and sell cryptocurrency without having to hand over control of your funds.",
   },
-  {
-    title: "Get the support you need",
-    description:
-      "Our team are always ready to support and answer your questions. Please feel free to contact us!",
-  },
 ];
 
 export const pricingOptions = [
