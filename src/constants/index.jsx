@@ -67,6 +67,12 @@ export const testimonials = [
 
 export const features = [
   {
+    icon: <PlugZap />,
+    text: "Users Transaparency",
+    description:
+      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+  },
+  {
     icon: <BotMessageSquare />,
     text: "Drag-and-Drop Interface",
     description:
@@ -90,12 +96,7 @@ export const features = [
     description:
       "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
   },
-  {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
-    description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-  },
+
   {
     icon: <GlobeLock />,
     text: "Analytics Dashboard",

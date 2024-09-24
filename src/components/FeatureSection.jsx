@@ -4,7 +4,10 @@ const FeatureSection = () => {
   return (
     <div className="container mx-auto relative mt-20 border-b border-neutral-800 min-h-[800px]">
       <div className="text-center">
-        <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
+        <span className="bg-neutral-900 text-orange-500 rounded-full text-sm font-medium px-4 py-2 shadow-2xl">
+          Why Choose PeerCrypt
+        </span>
+        <h2 className="mt-4 lg:mt-8 font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]">
           Easily build{" "}
           <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
             your code

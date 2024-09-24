@@ -4,7 +4,7 @@ import { checklistItems } from "../constants";
 
 const Workflow = () => {
   return (
-    <div className="container mx-auto mt-20">
+    <div className="container mx-auto my-20 pb-2 md:pb-20 border-b border-gray-900">
       <div className="flex flex-wrap justify-center">
         <div className="p-2 w-full lg:w-1/2">
           <img src={p2p} alt="Coding" className="opacity-75 w-auto h-auto" />
