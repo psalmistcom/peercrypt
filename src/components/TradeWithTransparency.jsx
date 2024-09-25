@@ -4,7 +4,7 @@ import { checklistItems } from "../constants";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
-const Workflow = () => {
+const TradeWithTransparency = () => {
   return (
     <div className="container mx-auto my-20 pb-2 md:pb-20 border-b border-gray-900">
       <motion.div
@@ -43,4 +43,4 @@ const Workflow = () => {
   );
 };
 
-export default Workflow;
+export default TradeWithTransparency;

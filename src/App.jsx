@@ -1,10 +1,10 @@
-import FeatureSection from "./components/FeatureSection";
+import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
-import Workflow from "./components/WorkFlow";
+import TradeWithTransparency from "./components/TradeWithTransparency";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <div className="w-full mx-auto pt-20">
         <HeroSection />
       </div>
-      <Workflow />
-      <FeatureSection />
+      <TradeWithTransparency />
+      <HowItWorks />
       <Pricing />
       <Testimonials />
       <Footer />

@@ -1,6 +1,6 @@
 import { features } from "../constants";
 
-const FeatureSection = () => {
+const HowItWorks = () => {
   return (
     <div className="container mx-auto relative mt-20 border-b border-neutral-800 overflow-hidden">
       <div className="text-center">
@@ -47,4 +47,4 @@ const FeatureSection = () => {
   );
 };
 
-export default FeatureSection;
+export default HowItWorks;
