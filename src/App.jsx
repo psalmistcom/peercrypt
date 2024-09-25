@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import TradeWithTransparency from "./components/TradeWithTransparency";
+import Faq from "./components/faq";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       </div>
       <TradeWithTransparency />
       <HowItWorks />
-      <Pricing />
+      <Faq />
+      {/* <Pricing /> */}
       <Testimonials />
       <Footer />
     </>

@@ -31,38 +31,32 @@ export const testimonials = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
-    image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "David Johnson",
     company: "Quantum Innovations",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "Ronee Brown",
     company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "Michael Wilson",
     company: "Visionary Creations",
-    image: user5,
     text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
     user: "Emily Davis",
     company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
 ];
 
@@ -105,7 +99,24 @@ export const features = [
   //     "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
   // },
 ];
-
+export const faqData = [
+  {
+    title: "What is PeerCrypt?",
+    desc: "PeerCrypt is a non-custodial cryptocurrency marketplace that enables you to trade the most popular types of cryptocurrency with other traders from around the world. cryptocurrency instantly with bank transfer, cash, and hundreds of different payment methods.",
+  },
+  {
+    title: "What Do I Need to Get Started?",
+    desc: "Start trading cryptocurrency with as little as a valid email address. You can exchange digital assets with escrow protection and high liquidity without the need for centralized exchanges or even a bank account. You can purchase bitcoin for the first time, sell cryptocurrency for cash, or buy crypto locally with the flexibility of P2P trading. You don't have to be experienced in crypto trading to start buying and using your secure digital wallet.",
+  },
+  {
+    title: "Is PeerCrypt Secure?",
+    desc: "Non-custodial trading options enable you to trade bitcoin, ethereum, and more while remaining in control of your cryptocurrency. When using our non-custodial wallets, you can export your private keys and even trade directly from MetaMask when exchanging ethereum or other supported tokens. So start trading digital currencies without having to hand over control of your funds. PeerCrypt strives to maintain the highest level of security, including offering expected features like two-factor authentication alongside leveraging smart contracts and custom bitcoin scripts for our non-custodial trading.",
+  },
+  {
+    title: "Can I Trade Bitcoin for Cash?",
+    desc: "Not everyone has access to banking which is often a requirement of other forms of bitcoin exchange. When trading P2P, you can convert bitcoin to cash and trade bitcoin using your local currency by completing trades with local bitcoin traders in your area. Whatever your circumstances are, you can enjoy the ability to buy and sell bitcoin using any payment method you choose, including cash, and fund your free wallet with the most prominent digital currency.",
+  },
+];
 export const checklistItems = [
   {
     title: "Exchange made easy",
