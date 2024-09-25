@@ -25,22 +25,6 @@ const AccordionItem = ({ open, title, toggle, desc }) => {
       </div>
     </div>
   );
-  // return (
-  //   <div className="pt-10">
-  //     <div
-  //       className="flex space-x-6 items-center cursor-pointer"
-  //       onClick={toggle}
-  //     >
-  //       <p className="font-semibold"> {title}</p>
-  //       <div className="text-[30px]">
-  //         {open ? <ChevronUp /> : <ChevronDown />}
-  //       </div>
-  //     </div>
-  //     <Collapse isOpened={open}>
-  //       <div className="bg-primary-700 px-[50px] pb-[20px]">{desc}</div>
-  //     </Collapse>
-  //   </div>
-  // );
 };
 
 export default AccordionItem;
