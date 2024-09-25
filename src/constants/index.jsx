@@ -1,17 +1,7 @@
 import { CircleUserRound } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
 import { ChartCandlestick } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
-import { Search } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
+import { Search } from "lucide-react";
 
 export const navItems = [
   { label: "Features", href: "#" },
@@ -105,7 +95,7 @@ export const faqData = [
     desc: "PeerCrypt is a non-custodial cryptocurrency marketplace that enables you to trade the most popular types of cryptocurrency with other traders from around the world. cryptocurrency instantly with bank transfer, cash, and hundreds of different payment methods.",
   },
   {
-    title: "What Do I Need to Get Started?",
+    title: "How do I Get Started?",
     desc: "Start trading cryptocurrency with as little as a valid email address. You can exchange digital assets with escrow protection and high liquidity without the need for centralized exchanges or even a bank account. You can purchase bitcoin for the first time, sell cryptocurrency for cash, or buy crypto locally with the flexibility of P2P trading. You don't have to be experienced in crypto trading to start buying and using your secure digital wallet.",
   },
   {
