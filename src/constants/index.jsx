@@ -71,25 +71,19 @@ export const features = [
     icon: <CircleUserRound />,
     text: "Create and Account",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-    btnText: "Get Started",
-    link: "#",
+      "Create an account on PeerCrypt with instant sign-up and get your free wallet.",
   },
   {
     icon: <Search />,
     text: "Search Offers",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
-    btnText: "Search Offers",
-    link: "#",
+      "Use the search bar to find the best offers. Use the filters to narrow down the perfect offer.",
   },
   {
     icon: <ChartCandlestick />,
     text: "Start a trade",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-    btnText: "Get started",
-    link: "#",
+      "Once you find the right offer, check the terms. Then start the trade and begin chatting with the seller.",
   },
   // {
   //   icon: <ShieldHalf />,

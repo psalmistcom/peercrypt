@@ -2,31 +2,46 @@ import { testimonials } from "../constants";
 
 const Testimonials = () => {
   return (
-    <div className="mt-20 tracking-wide">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
-        What People are saying
-      </h2>
-      <div className="flex flex-wrap justify-center">
+    <div className="container mx-auto relative mt-20 border-b border-neutral-800 overflow-hidden">
+      <div className="text-center">
+        <span className="bg-neutral-900 text-orange-500 rounded-full text-sm font-medium px-4 py-2 shadow-2xl">
+          Trade with confident on a transparent exchange market
+        </span>
+        <h2 className="mt-4 lg:mt-8 font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]">
+          How it{" "}
+          <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+            Works
+          </span>
+        </h2>
+      </div>
+      <div className="flex flex-wrap mt-10 lg:mt-20">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2">
-            <div className="bg-neutral-900 rounded-md p-6 text-md border border-neutral-800 font-thin">
-              <p>{testimonial.text}</p>
-              <div className="flex mt-8 items-start">
-                <img
-                  className="w-12 h-12 mr-6 rounded-full border border-neutral-300"
-                  src={testimonial.image}
-                  alt=""
-                />
-                <div>
-                  <h6>{testimonial.user}</h6>
-                  <span className="text-sm font-normal italic text-neutral-600">
-                    {testimonial.company}
-                  </span>
+          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
+            <div className="p-10 shadow-2xl bg-primary-700 rounded-xl hover:bg-primary-800 transition-all">
+              <div className="flex space-x-7">
+                <div className="flex h-10 w-10 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
+                  {testimonial.icon}
                 </div>
+                <h5 className="mt-1 mb-6 text-xl tracking-wide">
+                  {testimonial.text}
+                </h5>
+              </div>
+              <div>
+                <p className="text-md p-2 text-neutral-500">
+                  {testimonial.description}
+                </p>
               </div>
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center my-12">
+        <a
+          href="#"
+          className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-lg tracking-wide"
+        >
+          Start trading
+        </a>
       </div>
     </div>
   );

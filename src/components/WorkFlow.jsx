@@ -1,11 +1,19 @@
 import { CheckCircle2 } from "lucide-react";
 import p2p from "../assets/p2p_trading.png";
 import { checklistItems } from "../constants";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const Workflow = () => {
   return (
     <div className="container mx-auto my-20 pb-2 md:pb-20 border-b border-gray-900">
-      <div className="flex flex-wrap justify-center">
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="flex flex-wrap justify-center"
+      >
         <div className="p-2 w-full lg:w-1/2">
           <img src={p2p} alt="Coding" className="opacity-75 w-auto h-auto" />
         </div>
@@ -30,7 +38,7 @@ const Workflow = () => {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

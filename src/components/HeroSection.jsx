@@ -3,7 +3,7 @@ import Curve from "../assets/hero/curve.png";
 const HeroSection = () => {
   return (
     <div className="relative flex flex-col items-center lg:my-20 ">
-      <span className="bg-neutral-900 text-orange-500 rounded-full mb-3 text-sm font-medium px-4 py-2 uppercase shadow-2xl">
+      <span className="bg-neutral-900 text-orange-500 rounded-full mb-3 text-sm font-medium px-4 py-2 shadow-2xl">
         Quick Information goes here
       </span>
       <h1 className="font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem] text-center">

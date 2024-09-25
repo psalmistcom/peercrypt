@@ -1,7 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import { fontFamily } from "tailwindcss/defaultTheme";
-import plugin from "tailwindcss/plugin";
-
 export default {
   content: [
     "./index.html",
@@ -14,6 +11,7 @@ export default {
         primary: {
           100: "#e6f4fc",
 
+          700: "#0F0C1A",
           800: "#130c15",
           900: "rgb(14 12 21)",
         },
