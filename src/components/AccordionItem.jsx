@@ -6,7 +6,7 @@ const AccordionItem = ({ open, title, toggle, desc }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2 space-y-2">
+    <div className="ml-6 py-2 space-y-2">
       <button
         className="flex space-x-6 w-full"
         onClick={() => setAccordionOpen(!accordionOpen)}
