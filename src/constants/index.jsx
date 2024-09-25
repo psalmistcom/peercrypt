@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
+  { label: "FAQ", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
 

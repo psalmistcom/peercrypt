@@ -2,7 +2,6 @@ import { faqData } from "../constants";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import AccordionItem from "./AccordionItem";
-import { useState } from "react";
 
 const Faq = () => {
   return (
