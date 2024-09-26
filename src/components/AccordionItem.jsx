@@ -1,6 +1,5 @@
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
-import { Collapse } from "react-collapse";
 
 const AccordionItem = ({ open, title, toggle, desc }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
